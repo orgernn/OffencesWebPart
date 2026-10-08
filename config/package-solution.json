@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "offences-webpart-client-side-solution",
+    "id": "c5dc3380-ab1d-4dd5-9f89-6a47af158e9f",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.21.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Offences (עבירות) web part for the case page"
+      },
+      "longDescription": {
+        "default": "Shows, searches, adds, edits and deletes the offences (Convictions list) of the currently open case."
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "Offences web part Feature",
+        "description": "Activates the Offences web part.",
+        "id": "2a024735-f6e5-46d6-9c6d-76f06e72118b",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/offences-webpart.sppkg"
+  }
+}

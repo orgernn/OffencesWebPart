@@ -1,0 +1,22 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "whichFolder": "subdir",
+    "solutionName": "offences-webpart",
+    "environment": "spo",
+    "packageManager": "npm",
+    "skipFeatureDeployment": true,
+    "componentType": "webpart",
+    "template": "react",
+    "componentName": "Offences",
+    "componentDescription": "Offences (עבירות) of the open case",
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.22.0",
+    "sdksVersions": {},
+    "version": "1.21.1",
+    "libraryName": "offences-webpart",
+    "libraryId": "c5dc3380-ab1d-4dd5-9f89-6a47af158e9f",
+    "solutionShortDescription": "offences-webpart description",
+    "isDomainIsolated": false
+  }
+}

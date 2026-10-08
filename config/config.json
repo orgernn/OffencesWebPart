@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "offences-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/offences/OffencesWebPart.js",
+          "manifest": "./src/webparts/offences/OffencesWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {}
+}
